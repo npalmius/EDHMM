@@ -57,7 +57,7 @@ class Gaussian:
             if len(n[i]) > 0:
                 try:
                     ybar = np.mean(n[i],1)
-                except ValueError:
+                except:
                     ybar = np.mean(n[i])
                 
                 ybar = ybar.flatten()
