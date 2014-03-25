@@ -1,1 +1,4 @@
 *.pyc
+experiments/*.dat
+experiments/*.npy
+experiments/*.log
